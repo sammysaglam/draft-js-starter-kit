@@ -10,9 +10,9 @@ export default class DraftApp extends React.Component {
 		this.focus    = () => {
 			this.refs.editor.focus();
 			this.onChange(this.state.editorState);
-			this.handleKeyCommand = this.handleKeyCommand.bind(this);
 		}
 		this.onChange = this.onChange.bind(this);
+		this.handleKeyCommand = this.handleKeyCommand.bind(this);
 	};
 
 	onChange(editorState) {
