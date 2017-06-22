@@ -10,7 +10,7 @@ Starter kit for Draft.js + SASS/SCSS compiler (React included)
    3) commands:
         - yarn build-dev => builds a development version (uses React development environment)
         - yarn build-watch => build and watch for changes (uses React development environment)
-        - yarn build-production => build production version
+        - yarn build => build production version
    4) Open "dist/index.html"
  
 **Why use draft-js-starter-kit?**
