@@ -15,8 +15,8 @@ Starter kit for Draft.js + SASS/SCSS compiler (React included)
  
 **Why use draft-js-starter-kit?**
 -
-- Includes "Draft.min.css", and compiles into "app.css" alongside your SCSS
-- Uses Babel to provide ES6
+- Includes "Draft.min.css" which compiles into "app.css" alongside your SCSS
+- Uses Babel to provide ES6 support
 - Includes SASS/SCSS compiler
-- Differentiates between development and production environments + minifies on production
+- Differentiates between development and production environments + minifies on production build
 - Includes object spread operator plugin for babel
